@@ -8,5 +8,5 @@ else
 fi
 cd /PremiumFilter
 pip3 install -U -r requirements.txt
-echo "Starting PiroAutoFilterBot...."
+echo "Starting PremiumFilter...."
 python3 bot.py
