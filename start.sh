@@ -7,6 +7,6 @@ else
   git clone $UPSTREAM_REPO /PremiumFilter
 fi
 cd /PremiumFilter
-pip3 install -U -r requirements.txt
+pip3 install -U -m requirements.txt
 echo "Starting PremiumFilter...."
 python3 bot.py
